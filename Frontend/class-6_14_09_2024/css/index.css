@@ -1,0 +1,51 @@
+*{
+    background-color: coral;
+}
+.text-image{
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url(../assets/gallery/cat.jpg);
+    background-size: contain;
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    color: transparent;
+
+}
+.c1, #i1{
+    background-color: green;
+}
+.c2{
+    font-size: 50px;
+    background-color: red;
+}
+
+/* for direct and indirect */
+div p{
+    background-color: yellow;
+}
+
+/* for direct child only */
+div>p{
+    background-color: blue;
+}
+
+/* for immidiate child  */
+div +p{
+    background-color: violet;
+}
+
+/* for immidiate child and general child*/
+div ~p{
+    background-color: silver;
+}
+
+
+/*
+
+simple selector -> classname, id, tagname
+
+//interview topics
+selector -> {simple, universal, combinator}
+flex box
+grid
+ */
